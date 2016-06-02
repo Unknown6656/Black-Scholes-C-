@@ -19,6 +19,12 @@ namespace BlackScholes
 		 * C# Implementation
 		 * uses the C# Math.PI field rather than a constant as in the C++ implementaion
 		 * the value of Pi is 3.14159265358979323846
+	
+		 	S= Stock price
+			X=Strike price
+			T=Years to maturity
+			r= Risk-free rate
+			v=Volatility
 		*/
 		public double BlackScholes(string CallPutFlag, double S, double X, 
 			double T, double r, double v)
